@@ -30,7 +30,7 @@ Para o projeto OS Fácil, a estratégia de virtualização adotada é baseada no
 
 A arquitetura da solução foi desenhada para ser robusta, escalável e segura, utilizando os serviços da Oracle Cloud Infrastructure (OCI) e do Microsoft Azure.
 
-![Arquitetura OS Fácil]()
+![Arquitetura OS Fácil](https://github.com/Wugabriel/Sprint2DevOps/blob/main/Arquitetura%20macro.png?raw=true)
 
 *Diagrama da arquitetura da solução OS Fácil.*
 
