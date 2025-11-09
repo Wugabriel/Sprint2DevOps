@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  osfacil_web:
+    # Usa o Dockerfile no diretório atual para construir a imagem
+    build: .
+    
+    # Define um nome para facilitar a identificação
+    container_name: osfacil_web_devops
+    
+    # Mapeia a porta 8080 do host para a porta 80 do container
+    ports:
+      - "8080:80"
+    
+    # Garante que o container rode em background
+    # Requisito: O projeto deve ser executado em background. 
+    restart: always
